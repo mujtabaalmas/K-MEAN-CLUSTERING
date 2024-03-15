@@ -1,1 +1,18 @@
-https://youtu.be/T7P6AkyjMlI
+def add_numbers(num1, num2):
+a = num1
+b = num2
+result = a + b
+print(result)
+
+add_numbers(3, 5)
+
+
+def add_numbers(num1, num2):
+    """
+    This function takes two numbers as input and returns their sum.
+    """
+    result = num1 + num2
+    return result
+
+sum = add_numbers(3, 5)
+print("The sum is:", sum)
