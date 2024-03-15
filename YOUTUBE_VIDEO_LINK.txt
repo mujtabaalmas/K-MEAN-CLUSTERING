@@ -1,13 +1,4 @@
 def add_numbers(num1, num2):
-a = num1
-b = num2
-result = a + b
-print(result)
-
-add_numbers(3, 5)
-
-
-def add_numbers(num1, num2):
     """
     This function takes two numbers as input and returns their sum.
     """
@@ -16,3 +7,4 @@ def add_numbers(num1, num2):
 
 sum = add_numbers(3, 5)
 print("The sum is:", sum)
+print("The sum of 3 and 5 is:", add_numbers(3, 5))
